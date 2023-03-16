@@ -13,12 +13,13 @@
     <h1>Editor de texto HOVERLINE</h1>
     <div class="container">
         <div class="text">
-            <textarea  class="textarea" id="text-content" contenteditable="true">@GeremiasDev</textarea>
+            <div  class="textarea editor" id="editor" contenteditable="true"></div>
         </div>
         <div class="icons">
-            <button id="btn"><i class="bi bi-justify"></i></button>
-            <button ><i class="bi bi-justify-left"></i></button>
-            <button ><i class="bi bi-justify-right"></i></button>
+            <button id="justify"><i class="bi bi-justify"></i></button>
+            <button id="center"><i class="bi bi-text-center"></i></button>
+            <button id="left"><i class="bi bi-justify-left"></i></button>
+            <button id="right"><i class="bi bi-justify-right"></i></button>
             <button><i class="bi bi-type-bold"></i></button>            
             <button><i class="bi bi-type-italic"></i></button>
             <button><i class="bi bi-type-h1"></i></button>
@@ -28,6 +29,6 @@
         </div>
     </div>
 
-    <script src="app.js"></script>
+    <script src="editor.js"></script>
 </body>
 </html>

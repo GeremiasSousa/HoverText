@@ -1,6 +1,6 @@
 
 let text = document.getElementById('text-content');
-kkkk
+
 class Editor {
     constructor() {
         this.startEdit('#text-content');
